@@ -319,7 +319,7 @@ function RequestFontsJSON(useCache)
     $.ajax
     ({
         type:'GET',
-        url:'https://www.googleapis.com/webfonts/v1/webfonts?key=AIzaSyCbTrNnpZwQAQhL4mFvPHLzDVaGBTh1IWE',
+        url:'https://www.googleapis.com/webfonts/v1/webfonts?key=<API KEY>',
         success: function(data)
         {
             console.log('Loaded fonts from Google');
